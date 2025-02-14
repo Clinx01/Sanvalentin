@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <title>San Valentín</title>
+</head>
+<body>
+    <!-- Primera parte: Pregunta de San Valentín -->
+    <div class="container">
+        <h1>¡Feliz San Valentín!</h1>
+        <h2>¿Quieres ser mi San Valentín?</h2>
+        <div class="button-container">
+            <button id="btnSi">SI</button>
+            <img src="heart.gif" alt="Gif decorativo" class="gif">
+            <button id="btnNo">NO</button>
+        </div>
+    </div>
+
+    <!-- Modal para "SI" -->
+    <div id="modalSi" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>¡Vos tambien sos mi San Valentin! 💖</h2>
+            <p class="p1" id="mensajeSi">Entonces me debes <span id="contadorBesos">0</span> besos Eve!.</p>
+        </div>
+    </div>
+
+    <!-- Modal para "NO" -->
+    <div id="modalNo" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>¡Oh no!</h2>
+            <p>Espero que cambies de opinión. ¡Feliz San Valentín de todos modos! 💐</p>
+        </div>
+    </div>
+
+    <img src="Love.jpg" class="love">
+    
+    <!-- Segunda parte: Carta de San Valentín -->
+    <div class="contenedor">
+        <div class="envoltura-sobre">
+            <div class="sobre">
+                <div class="carta">
+                    <div class="contenido">
+                        <strong class="p2">Querida Evelyn</strong>
+                        <p>
+                            Hoy es <strong>San Valentín</strong>, el día oficial de los <em>enamorados</em>, yo <em>soy</em> enamorado tuyo y por mas que mi regalo no sea todo lo que me gustaria darte espero que te <code>guste</code> asi como vos me gustas a mi. "<strong>Te amo</strong>" demasiado <strong>Me encantas</strong> y más me encantan tus besos,tus miradas y tus abrazos. Espero en el futuro poder regalarte cosas mucho mas lindas, tambien espero que este año tengamos un monton de recuerdos bonitos juntos, y poder tener mas fotos como la de aqui. siempre vas a tener un lugar en mi corazon con algunos detalles, pero todos adorables. <br> <strong>Feliz San Valentín</strong>, mi <em>estrella favorita</em>. <br> Con mucho <strong>amor</strong>, <br> Tu programador enamorado. <br> <span style="font-size: 0.9em; color: grey;">PD: Tiene muchos errores esta pagina espero no los notes...</span> <br> <code>"Eres lo mejor que me ha pasado."</code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="corazon"></div>
+            <div class="solapa-derecha"></div>
+            <div class="solapa-izquierda"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
